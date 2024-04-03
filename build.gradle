@@ -29,6 +29,12 @@ dependencies {
 	runtimeOnly 'com.mysql:mysql-connector-j'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	// yml
+	implementation 'org.yaml:snakeyaml:+'
+
+	// dotenv-java
+	implementation 'io.github.cdimascio:java-dotenv:+'
 }
 
 tasks.named('test') {
