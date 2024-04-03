@@ -38,3 +38,6 @@ out/
 
 ### ENV File ###
 .env
+
+### DATABASE/DATA Directory ###
+database/data/
