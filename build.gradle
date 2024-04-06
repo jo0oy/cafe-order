@@ -35,6 +35,10 @@ dependencies {
 
 	// dotenv-java
 	implementation 'io.github.cdimascio:java-dotenv:+'
+
+	// testcontainers
+	testImplementation 'org.testcontainers:junit-jupiter'
+	testImplementation 'org.testcontainers:mysql'
 }
 
 tasks.named('test') {
