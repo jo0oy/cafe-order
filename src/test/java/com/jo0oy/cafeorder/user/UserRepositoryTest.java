@@ -1,6 +1,8 @@
 package com.jo0oy.cafeorder.user;
 
 
+import com.jo0oy.cafeorder.user.entity.User;
+import com.jo0oy.cafeorder.user.repository.UserRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
