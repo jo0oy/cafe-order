@@ -1,4 +1,4 @@
-package com.jo0oy.cafeorder.user;
+package com.jo0oy.cafeorder.user.entity;
 
 import jakarta.persistence.*;
 import lombok.AccessLevel;
